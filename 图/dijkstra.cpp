@@ -22,7 +22,7 @@ int head[N]; // head数组的每一个元素代表链表的头指针
 int cnt;
 
 void init() {
-    memset(head, -1, sizeof head);
+    memset(head, -1, sizeof head); // 初始化时，每个链表都没有元素，初始化为空，即：-1
     cnt = 0;
 }
 
